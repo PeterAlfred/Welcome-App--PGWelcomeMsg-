@@ -2,7 +2,7 @@
  <html>
  	<head>
    		<title>PhoneGap Application</title>
-   		<script type="text/javascript" charset="utf-8" src="cordova-2.9.0.js"></script>
+   		<script type="text/javascript" charset="utf-8" src="cordova-2.9.1.js"></script>
    		<script type="text/javascript">
    		
 			function onBodyLoad() {
@@ -10,17 +10,10 @@
 			}
 			function PhonegapLoaded() {
 				document.getElementById("submitButton").addEventListener("click", dispMessage);
-				//console.warn("This is a warning message!");
-				//console.log("This is a log message!");
 			}
 			function dispMessage() {
 				var nameOfUser = document.getElementById("name").value;
 				document.getElementById("welcomemsg").innerHTML = "Welcome " + nameOfUser + " !";
-				//try {
-					//var nameOfUser = document.getElementById('nme").value;
-				//} catch(e) {
-				  //console.error("Error occurred: " + e.message);
-				  //}
 			}
 			
 		</script>
