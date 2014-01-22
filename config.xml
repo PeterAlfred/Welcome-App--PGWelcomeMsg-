@@ -10,7 +10,7 @@
     <description>App that displays welcome message to the user.</description>
     <author href = "http://www.soluza.nl" email = "peter.luteijn@soluza.nl">Peter Alfred</author>
     <feature name = "http://api.phonegap.com/1.0/device"/>
-    <preference name = "phonegap-version" value = "2.3.0"/>
+    <preference name = "phonegap-version" value = "2.9.0"/>
     <preference name = "orientation" value = "default"/>
     <preference name = "target-device" value = "universal"/>
     <preference name = "fullscreen" value = "false"/>
